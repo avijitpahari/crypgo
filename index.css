@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+     background-color: #01050f;
+}
+/* ------hero------ */
+
+/* ------hero nevigation bar ------ */
+
+#hero-nav{
+    height: 6em;
+    max-width: 100vw;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+#menu nav{
+    display: flex;
+    gap: 2.5rem;
+}
+#menu nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.26rem;
+}
+#signin,#signup{
+    height: 3em;
+    width: 6.5em;
+    border-radius: .9em;
+    font-size: 1em;
+}
+#signin{
+    background-color: transparent;
+    color: #98e39d;
+    border-color: #98e39d;
+}
+#signup{
+    background-color: #98e39d;
+    color: black;
+    border-color: #98e39d;
+}
+
+/* ----------hero-middle---------- */
+
+#hero-middle{
+    display: flex;
+}
